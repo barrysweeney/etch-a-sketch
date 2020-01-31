@@ -17,7 +17,7 @@ const container = document.getElementById('container');
         function makeDrawable() {
             for (i = 0; i < boxes.length; i++) {
                 boxes[i].addEventListener('mouseenter', function (event) {
-                    event.target.style.cssText = "background-color: lightgreen;"
+                    event.target.style.cssText = "background-color: #92A8D1;"
                 })
             }
         }
